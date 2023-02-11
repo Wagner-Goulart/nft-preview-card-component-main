@@ -18,4 +18,5 @@ No desafio proposto a imagem possui um Hover na imagem, onde ao passar o mouse d
 Foi algum tempo de pesquisas e testes até o o resultado ficasse o mais próximo com o Layout oferecido.
 <br>
 <br>
-![Ver site]()
+
+[Ver site](https://wagner-goulart.github.io/nft-preview-card-component-main/)

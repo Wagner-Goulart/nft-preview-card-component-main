@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 375px;
+    width: 90%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagem-logo {
+    width:25vw;
+    height: 41vh;
+    min-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.imagem-cubo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imagem-cubo:hover {
+    background-color: hsla(178, 100%, 50%, 0.418)
+}
+
+.imagem-cubo .view-icon {
+    opacity: 0;
+}
+
+.imagem-cubo:hover  .view-icon {
+   opacity: 0.5;
+
+}
+
+.cripto-tittle {
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cripto-tittle:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.cript-description {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.promocao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 20px 0px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.preco-em-ethereum {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    gap: 5px;
+}
+
+.preco-em-ethereum > p {
+    color: hsl(178, 100%, 50%);
+}
+
+.prazo-da-promocao {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+    gap: 5px;
+}
+
+.prazo-da-promocao > p {
+    color: hsl(214, 35%, 31%)
+}
+
+.owner {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.owner > p {
+    color: hsl(214, 35%, 31%)
+}
+
+.owner-name {
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.owner-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.owner img {
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+
+    color: hsl(214, 35%, 31%)
+}
+
